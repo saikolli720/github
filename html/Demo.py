@@ -1,4 +1,6 @@
-a=1
-b=2
-if a==1:
-    print("Hello")
+def dem(x):
+    a=1
+    for i in range(1,x+1):
+        a=a*i
+    print(a)
+dem(5)
